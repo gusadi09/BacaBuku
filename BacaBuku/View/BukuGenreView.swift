@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
- 
+
 struct BukuGenreView: View {
   
   @ObservedObject var ApiService = GenreBukuApiService(id: "2")
@@ -27,9 +27,10 @@ struct BukuGenreView: View {
                 .padding(.top, 30)
                 .padding(.horizontal)
                 .onTapGesture {
-                  //                self.viewController?.present(style: .fullScreen) {
-                  //                  BukuGenreView()
-                  //                    .ignoresSafeArea()
+                  self.viewController?.present(style: .fullScreen) {
+                    DetailBukuView(ApiService: BukuDetailApiService(id: String(item.id)))
+                      .ignoresSafeArea()
+                  }
                 }
             }
           }.padding(.bottom, 30)

@@ -26,6 +26,8 @@
 		EC46AF94265B6B2400B94879 /* BukuBaru.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF93265B6B2400B94879 /* BukuBaru.swift */; };
 		EC46AF97265B6BB400B94879 /* BukuBaruApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF96265B6BB300B94879 /* BukuBaruApiService.swift */; };
 		EC46AF9F265B721200B94879 /* GenreBukuApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF9E265B721200B94879 /* GenreBukuApiService.swift */; };
+		EC46AFA2265B88A400B94879 /* BukuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AFA1265B88A400B94879 /* BukuDetail.swift */; };
+		EC46AFA5265B8DA800B94879 /* BukuDetailApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AFA4265B8DA800B94879 /* BukuDetailApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		EC46AF93265B6B2400B94879 /* BukuBaru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuBaru.swift; sourceTree = "<group>"; };
 		EC46AF96265B6BB300B94879 /* BukuBaruApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuBaruApiService.swift; sourceTree = "<group>"; };
 		EC46AF9E265B721200B94879 /* GenreBukuApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreBukuApiService.swift; sourceTree = "<group>"; };
+		EC46AFA1265B88A400B94879 /* BukuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuDetail.swift; sourceTree = "<group>"; };
+		EC46AFA4265B8DA800B94879 /* BukuDetailApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuDetailApiService.swift; sourceTree = "<group>"; };
 		F291EEB5827323F7BFA84649 /* Pods-BacaBuku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BacaBuku.release.xcconfig"; path = "Target Support Files/Pods-BacaBuku/Pods-BacaBuku.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +146,7 @@
 			children = (
 				EC46AF71265B5A7500B94879 /* Genre.swift */,
 				EC46AF93265B6B2400B94879 /* BukuBaru.swift */,
+				EC46AFA1265B88A400B94879 /* BukuDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				EC46AF8B265B637D00B94879 /* GenreApiService.swift */,
 				EC46AF96265B6BB300B94879 /* BukuBaruApiService.swift */,
 				EC46AF9E265B721200B94879 /* GenreBukuApiService.swift */,
+				EC46AFA4265B8DA800B94879 /* BukuDetailApiService.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -295,10 +301,12 @@
 				EC46AF94265B6B2400B94879 /* BukuBaru.swift in Sources */,
 				EC46AF86265B608900B94879 /* GenreCell.swift in Sources */,
 				EC46AF69265B599200B94879 /* SVGView.swift in Sources */,
+				EC46AFA2265B88A400B94879 /* BukuDetail.swift in Sources */,
 				EC46AF9F265B721200B94879 /* GenreBukuApiService.swift in Sources */,
 				EC46AF5E265B53C100B94879 /* CustomPresentViewController.swift in Sources */,
 				EC46AF89265B609900B94879 /* BukuCell.swift in Sources */,
 				EC46AF7E265B5FA800B94879 /* DetailBukuView.swift in Sources */,
+				EC46AFA5265B8DA800B94879 /* BukuDetailApiService.swift in Sources */,
 				EC46AF4B265B4FF600B94879 /* ContentView.swift in Sources */,
 				EC46AF49265B4FF600B94879 /* BacaBukuApp.swift in Sources */,
 				EC46AF97265B6BB400B94879 /* BukuBaruApiService.swift in Sources */,
