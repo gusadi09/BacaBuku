@@ -11,6 +11,8 @@
 		EC46AF4B265B4FF600B94879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF4A265B4FF600B94879 /* ContentView.swift */; };
 		EC46AF4D265B4FFA00B94879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC46AF4C265B4FFA00B94879 /* Assets.xcassets */; };
 		EC46AF50265B4FFA00B94879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC46AF4F265B4FFA00B94879 /* Preview Assets.xcassets */; };
+		EC46AF5A265B51BF00B94879 /* BukuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF59265B51BF00B94879 /* BukuView.swift */; };
+		EC46AF5E265B53C100B94879 /* CustomPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF5D265B53C100B94879 /* CustomPresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EC46AF4C265B4FFA00B94879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC46AF4F265B4FFA00B94879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC46AF51265B4FFA00B94879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC46AF59265B51BF00B94879 /* BukuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuView.swift; sourceTree = "<group>"; };
+		EC46AF5D265B53C100B94879 /* CustomPresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				EC46AF48265B4FF600B94879 /* BacaBukuApp.swift */,
-				EC46AF4A265B4FF600B94879 /* ContentView.swift */,
+				EC46AF58265B514800B94879 /* View */,
 				EC46AF4C265B4FFA00B94879 /* Assets.xcassets */,
 				EC46AF51265B4FFA00B94879 /* Info.plist */,
 				EC46AF4E265B4FFA00B94879 /* Preview Content */,
@@ -67,6 +71,16 @@
 				EC46AF4F265B4FFA00B94879 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC46AF58265B514800B94879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC46AF4A265B4FF600B94879 /* ContentView.swift */,
+				EC46AF59265B51BF00B94879 /* BukuView.swift */,
+				EC46AF5D265B53C100B94879 /* CustomPresentViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC46AF5A265B51BF00B94879 /* BukuView.swift in Sources */,
+				EC46AF5E265B53C100B94879 /* CustomPresentViewController.swift in Sources */,
 				EC46AF4B265B4FF600B94879 /* ContentView.swift in Sources */,
 				EC46AF49265B4FF600B94879 /* BacaBukuApp.swift in Sources */,
 			);
