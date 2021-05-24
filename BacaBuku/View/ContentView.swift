@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("Buku Terbaru")
           }
         
-        Text("Genre")
+        GenreView()
           .tabItem {
             Image(systemName: "books.vertical")
             Text("Genre Buku")

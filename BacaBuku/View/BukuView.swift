@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct BukuView: View {
+  @ObservedObject var ApiService = BukuBaruApiService()
+  
   @Environment(\.viewController) private var viewControllerHolder: ViewControllerHolder
   
   private var viewController: UIViewController? {
@@ -47,15 +49,27 @@ struct BukuView: View {
         .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0.0, y: 4)
         .padding()
         
-        HStack(spacing: 20) {
-          
-        }
+        VStack(spacing: 20) {
+          ForEach(ApiService.dataTotal?.result ?? [], id: \.id) { item in
+            BukuCell(judulBuku: item.title, coverImg: item.cover_url)
+              .padding(.top, 30)
+              .padding(.horizontal)
+              .onTapGesture {
+                //                self.viewController?.present(style: .fullScreen) {
+                //                  BukuGenreView()
+                //                    .ignoresSafeArea()
+              }
+          }
+        }.padding(.bottom, 30)
         
-        .navigationTitle("Buku Terbaru")
       }
+      
+      .navigationTitle("Buku Terbaru")
     }
   }
 }
+
+
 
 struct BukuView_Previews: PreviewProvider {
   static var previews: some View {
