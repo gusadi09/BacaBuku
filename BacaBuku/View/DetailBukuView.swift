@@ -41,7 +41,12 @@ struct DetailBukuView: View {
                   .font(.system(size: 24))
                   .bold()
                 
-                Button(action: {}, label: {
+                Button(action: {
+                  self.viewController?.present(style: .fullScreen) {
+                    DetailPenulisView(ApiService: PenulisApiService(id: String(ApiService.dataTotal?.result.Writer_by_writer_id.User_by_user_id.id ?? 0)))
+                      .ignoresSafeArea()
+                  }
+                }, label: {
                   HStack {
                     KFImage(URL(string: "https://cabaca.id:8443/api/v2/files/\(ApiService.dataTotal?.result.Writer_by_writer_id.User_by_user_id.photo_url ?? "")&api_key=32ded42cfffb77dee86a29f43d36a3641849d4b5904aade9a79e9aa6cd5b5948"))
                       .resizable()

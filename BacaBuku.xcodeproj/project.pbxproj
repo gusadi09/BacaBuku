@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B10524A91437B576DBE5B797 /* Pods_BacaBuku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9F37256DD08D6A2B23431E /* Pods_BacaBuku.framework */; };
+		EC37B0DE265B969E00DE303D /* PenulisApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37B0DD265B969E00DE303D /* PenulisApiService.swift */; };
+		EC37B0E1265B96AA00DE303D /* Penulis.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37B0E0265B96AA00DE303D /* Penulis.swift */; };
 		EC46AF49265B4FF600B94879 /* BacaBukuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF48265B4FF600B94879 /* BacaBukuApp.swift */; };
 		EC46AF4B265B4FF600B94879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46AF4A265B4FF600B94879 /* ContentView.swift */; };
 		EC46AF4D265B4FFA00B94879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC46AF4C265B4FFA00B94879 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		1E9F37256DD08D6A2B23431E /* Pods_BacaBuku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BacaBuku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D3F9343007B273A961DB40 /* Pods-BacaBuku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BacaBuku.debug.xcconfig"; path = "Target Support Files/Pods-BacaBuku/Pods-BacaBuku.debug.xcconfig"; sourceTree = "<group>"; };
+		EC37B0DD265B969E00DE303D /* PenulisApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenulisApiService.swift; sourceTree = "<group>"; };
+		EC37B0E0265B96AA00DE303D /* Penulis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penulis.swift; sourceTree = "<group>"; };
 		EC46AF45265B4FF600B94879 /* BacaBuku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BacaBuku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC46AF48265B4FF600B94879 /* BacaBukuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacaBukuApp.swift; sourceTree = "<group>"; };
 		EC46AF4A265B4FF600B94879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 				EC46AF71265B5A7500B94879 /* Genre.swift */,
 				EC46AF93265B6B2400B94879 /* BukuBaru.swift */,
 				EC46AFA1265B88A400B94879 /* BukuDetail.swift */,
+				EC37B0E0265B96AA00DE303D /* Penulis.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				EC46AF96265B6BB300B94879 /* BukuBaruApiService.swift */,
 				EC46AF9E265B721200B94879 /* GenreBukuApiService.swift */,
 				EC46AFA4265B8DA800B94879 /* BukuDetailApiService.swift */,
+				EC37B0DD265B969E00DE303D /* PenulisApiService.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 			files = (
 				EC46AF81265B5FFE00B94879 /* DetailPenulisView.swift in Sources */,
 				EC46AF6C265B59CC00B94879 /* GenreView.swift in Sources */,
+				EC37B0DE265B969E00DE303D /* PenulisApiService.swift in Sources */,
 				EC46AF8C265B637D00B94879 /* GenreApiService.swift in Sources */,
 				EC46AF5A265B51BF00B94879 /* BukuView.swift in Sources */,
 				EC46AF94265B6B2400B94879 /* BukuBaru.swift in Sources */,
@@ -309,6 +316,7 @@
 				EC46AFA5265B8DA800B94879 /* BukuDetailApiService.swift in Sources */,
 				EC46AF4B265B4FF600B94879 /* ContentView.swift in Sources */,
 				EC46AF49265B4FF600B94879 /* BacaBukuApp.swift in Sources */,
+				EC37B0E1265B96AA00DE303D /* Penulis.swift in Sources */,
 				EC46AF97265B6BB400B94879 /* BukuBaruApiService.swift in Sources */,
 				EC46AF72265B5A7500B94879 /* Genre.swift in Sources */,
 				EC46AF90265B690500B94879 /* BukuGenreView.swift in Sources */,
